@@ -20,7 +20,8 @@ const SignIn = () => {
         </div>
 
         <p className="signin-footer">
-          Don't have an account? <a href="#">Sign Up</a>
+          Don't have an account?
+          <button className="link-button">Sign Up</button>
         </p>
       </motion.div>
     </div>
