@@ -1,0 +1,44 @@
+.programs-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+}
+
+.programs-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.programs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.program-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 25px 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.program-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.12);
+}
+
+.program-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+.program-card p {
+  font-size: 1rem;
+  color: #4b5563;
+}

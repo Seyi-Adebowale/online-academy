@@ -9,17 +9,7 @@ const Home = () => {
   return (
     <div className="home-container" style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
       {/* Navbar */}
-      <nav className="navbar">
-        <h1>Online Academy</h1>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#courses">Courses</a></li>
-          <li><a href="#programs">Programs</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <button>Sign In</button>
-      </nav>
-
+      
       {/* Hero Section */}
       <section className="hero">
         <motion.div className="hero-content" initial={{ opacity: 0, x: -50 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }}>
@@ -69,28 +59,7 @@ const Home = () => {
         <button>Get Started</button>
       </section>
 
-      {/* Footer */}
-      <footer>
-        <div className="footer-grid">
-          <div>
-            <h3>Online Academy</h3>
-            <p>Accessible, inclusive, and flexible digital learning for all.</p>
-          </div>
-          <div>
-            <h3>Quick Links</h3>
-            <a href="#about">About</a>
-            <a href="#courses">Courses</a>
-            <a href="#programs">Programs</a>
-            <a href="#contact">Contact</a>
-          </div>
-          <div>
-            <h3>Contact</h3>
-            <p>Email: info@onlineacademy.com</p>
-            <p>Phone: +234 800 123 4567</p>
-          </div>
-        </div>
-        <p style={{ textAlign: "center", marginTop: "40px", color: "#6b7280" }}>©️ 2025 Online Academy. All rights reserved.</p>
-      </footer>
+
     </div>
   );
 };
